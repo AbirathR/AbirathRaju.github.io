@@ -1,0 +1,419 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpg" />
+
+  <!-- Put your site title here -->
+  <title>
+    Abirath Raju | Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="ROS2, Python3, Georgia Tech, C++, Robotics, Robotic systems, LIDAR" content="Abirath Raju, roboticist from Georgia Tech, Atlanta, USA" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Research</a></li>
+          <li class="nav__item"><a href="#personal" class="nav__link">Personal projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Abirath Raju</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A Roboticist, striving to make the world a better place through tech.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Research</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Perception of Humanoid robot Digit</h3>
+              <p>
+                As a part of the LIDAR research group at Georgia Tech, advised by Dr. Ye Zhao, I am working on the computer vision capabilities of a humanoid robot(Digit). I am working on helping Digit navigate through an environment with humans and avoid collisions. My work involves creating DL models that take in Lidar data as input and output markers of humans detected in the vicinity.
+              </p>
+              <!-- <ul class="work__list">
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>Parcel</li>
+              </ul> -->
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/LiDAR-research" target="_blank" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/LiDAR-research" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Digit.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Turtlebot3 Burger </h3>
+              <p>
+                As a part of the Robotics research course (7785) at Georgia Tech, I developed algorithms using Python3, ROS2 and Gazebo to help the Turtlebot3 robot perform tasks like following an object, avoiding obstacles and navigating to waypoints, path planning with Navstack and maneuvering an obstacle course. 
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Turtlebot3-Burger" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Turtlebot3-Burger">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/turtlebot3.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Biomechanics and machine learning</h3>
+              <p>
+                I was selected to be a MITACS Globalink Research Scholar and had the privilege to conduct research at the Human Performance Lab, New Brunswick, Canada. I worked under the supervision of Dr.Victoria Chester where I researched and developed various ML and DL models including CAT Boost, SVM with RBF kernels, KNN algorithms, LSTM’s and CNN’s for the binary classification problem of separating Autism vs Control class groups using multi-segment foot data.
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Biomechanics-and-ML" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Biomechanics-and-ML">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/biomechanics.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Drone simulation and path planning</h3>
+              <p>
+                Worked under the supervision of Dr.Deepak Mishra at the Indian Institute of Space Science and Technology. I modeled a Quadcopter UAV in Gazebo integrated with Hokuyo LiDAR and Ardupilot controller. Created a custom environment with obstacles and used the RRT* algorithm to navigate the drone from start to goal. 
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Drone-sim-and-path-planning" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Drone-sim-and-path-planning">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/drone.png" class="work__image" alt="Project 4" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Myoelectric pattern recognition</h3>
+              <p>
+                Worked under the guidance of Prof.P.A.Karthick on researching and developing CNN neural networks for classifying hand sEMG signals to be used in prosthesis for amputees,in collaboration with IIT Madras. I used the NINAPRO database, performed signal processing techniques using MATLAB and fed into neural nets. Achieved accuracy of 70 percent on a 10 class classification problem to classify hand movements like thumb flexion,extension etc.
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Myoelectric-pattern-recognition-codes" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Myoelectric-pattern-recognition-codes">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/myo.png" class="work__image" alt="Project 5" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>KUKA robot vision</h3>
+              <p>
+                Worked under the guidance of Prof. Dr. S.K Pal. I built a colour detection software using OpenCV, which is implemented in a 6 D.O.F robotic arm at the Centre of Excellence,IIT Kharagpur. I also worked with TCUP Edge (IOT platform) to interface with the sensors of the FSW robot and building robust machine learning algorithms to control force and torque parameters.
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Colour-Detection" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Colour-Detection">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/KUKA.png" class="work__image" alt="Project 6" />
+            </div>
+          </div>
+
+
+          
+      <!-- ***** Personal Projects ***** -->
+  
+      <section class="personal" id="personal">
+        <div class="row">
+          <h2>Personal Projects</h2>
+          <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Line Follower robot</h3>
+              <p>
+                We built a line-follower robot from scratch for Following’2020 competition conducted by RMI, the robotics and machine intelligence club of NIT Trichy.
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Line-Follower-robot" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Line-Follower-robot">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/line.png" class="work__image" alt="Project 7" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Profanity filter</h3>
+              <p>
+                We collected tweets from Twitter and data from Reddit which included data with and without obscene language. We trained a ML model using the SVM classifier to predict whether a new sentence fed in is obscene or not. This was done to save children from viewing harmful content on the internet.
+
+
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Profanity-filter-using-SVM-s-" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Profanity-filter-using-SVM-s-">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/profanity.jpg" class="work__image" alt="Project 8" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Sentiment Analysis</h3>
+              <p>
+                The 2020 farmer protests of Haryana were analysed,by collecting tweets and analyzing their nature. NLP techniques like vectorization and various pre-processing techniques to label the tweets as positive,negative or neutral were implemented to get an overall idea of the temperament of the people. Results were depicted in the form of bar graphs and charts for visualization.
+
+
+              </p>
+
+              <div class="work__links">
+                <a href="https://abirath-raju.medium.com/sentiment-analysis-on-farmers-protest-21823bff7830" class="link__text">
+                  Medium blog <span>&rarr;</span>
+                </a>
+                <a href="https://abirath-raju.medium.com/sentiment-analysis-on-farmers-protest-21823bff7830">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/farmer.png" class="work__image" alt="Project 9" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Plagiarism checker</h3>
+              <p>
+                In this project, a Plagiarism detector is built using various NLP techniques.A machine learning model is developed which takes ‘n’ documents as input and outputs the percentage of plagiarism for everycombination.The percentage is calculated using the cosine similarity rule of Natural language processing. The entire programming is done in Jupyter environment.
+
+
+              </p>
+
+              <div class="work__links">
+                <a href="https://github.com/AbirathR/Plagiarism-Checker" class="link__text">
+                  Visit GitHub <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/AbirathR/Plagiarism-Checker">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/plagiarism.png" class="work__image" alt="Project 10" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+<!-- 
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos"> -->
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <!-- <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section> -->
+
+
+
+       <!-- ***** About ***** -->    
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I'm a first-year Master's student pursuing Robotics at Georgia Tech, expected to graduate in May 2025. I have a 4.0 GPA (as of Fall 2023). I graduated from the National Institute of Technology, Tiruchirappalli, with a Bachelor's degree in Mechanical Engineering and a minor in Computer Science (GPA: 8.93).
+              I have a keen interest in the areas of Robot Perception, Computer Vision and AI applications in robotics and am working on related research projects with faculty at Georgia Tech. 
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1EZxgvb_yy8JbhgEOyIL1bpeNRCE9i5fk/view?usp=sharing" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/abirath.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          I'm currently looking for internship roles in the robotics field during the Summer of 2024, based in USA. During my free time I play badminton and chess. I'm a huge fan of the Esports world and I follow it intently. Please feel free to drop me a message if my work resonates with you and if you have similar interests as me, and would like to discuss!
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:abirath.raju@gmail.com" class="btn">abirath.raju@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/AbirathR" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/AbirathR" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <!-- <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li> -->
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/abirath-raju-479824202/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2023 - Template designed & developed by Abirath.
+      </p>
+      <!-- <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div> -->
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
