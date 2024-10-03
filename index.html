@@ -78,30 +78,59 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Perception of Humanoid robot Digit</h3>
-              <p>
-                As a part of the LIDAR research group at Georgia Tech, advised by Dr. Ye Zhao, I am working on the computer vision capabilities of a humanoid robot(Digit). I am working on helping Digit navigate through an environment with humans and avoid collisions. My work involves using the Vicon Mocap system to detect humans in the vicinity and using the Zonotope-based model-predictive controller to plan Digit's trajectory.
-              </p>
-              <!-- <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul> -->
+                <h3>Social navigation of Humanoid robot Digit (Perception and RL)</h3>
+                <p>
+                    I am a part of the Laboratory for Intelligent decisions and autonomous robots (LIDAR) research group at Georgia Tech, advised by Dr. Ye Zhao. As a part of my capstone project, I am working on developing a perception pipeline to perform 3D pose estimation of pedestrians in the scene and infer the emotion of the person from gait. This will be incorporated into the reward structure of a RL framework to obtain a policy that outputs socially acceptable robot actions in order navigate through a crowded environment.
+                </p>
+            </div>
+        </div>
+        
 
+        <div class="work__box">
+          <div class="work__text">
+              <h3>System integration of Humanoid robot Digit</h3>
+              <p>
+                  I am a part of the Laboratory for Intelligent decisions and autonomous robots (LIDAR) research group at Georgia Tech, advised by Dr. Ye Zhao. I worked on system integration of a humanoid robot (Digit). I worked to help Digit navigate through an environment with humans and avoid collisions. My work involved using the Vicon Mocap system to detect humans in the vicinity and using the Zonotope-based model-predictive controller to plan Digit's trajectory.
+              </p>
+              <p>
+                  Work submitted to T-ASE. You can view the paper on 
+                  <a href="https://arxiv.org/abs/2406.17151" target="_blank">arXiv</a>.
+              </p>
+      
               <div class="work__links">
-                <a href="https://github.com/AbirathR/LiDAR-research" target="_blank" class="link__text">
-                  Visit GitHub <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/AbirathR/LiDAR-research" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
+                  <a href="https://arxiv.org/abs/2406.17151" target="_blank" class="link__text">
+                      View Paper on arXiv <span>&rarr;</span>
+                  </a>
+                  <a href="https://szn-mpc.github.io/" target="_blank" class="link__text">
+                      Visit GitHub Project Website <span>&rarr;</span>
+                  </a>
               </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Digit.png" class="work__image" alt="Project 1" />
-            </div>
           </div>
+          <div class="work__image-box">
+              <img src="./images/Digit.gif" class="work__image" alt="Project 1" />
+          </div>
+      </div>
+      
+      <div class="work__box">
+        <div class="work__text">
+          <h3>Foundational models to understand failure recovery in robots </h3>
+          <p>
+            As a part of the Deep Learning for robotics coursework with Dr. Danfei Xu, my team and I explored VLM's to create open-world scene graph representations and used an LLM to identify robot failure given the event summary of the task performed by the robot. We evaluated our methodology on both AI2Thor simulator data and real life teleoperation data collected on the Stretch robot. 
+          </p>
+
+          <div class="work__links">
+            <a href="https://github.com/DLR-Team-SAMA/REFLECT-SAMA" class="link__text">
+              Visit GitHub <span>&rarr;</span>
+            </a>
+            <a href="https://github.com/DLR-Team-SAMA/REFLECT-SAMA">
+              <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+            </a>
+          </div>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/ai2thor.png" class="work__image" alt="Project 2" />
+        </div>
+      </div>
 
           <div class="work__box">
             <div class="work__text">
@@ -217,6 +246,45 @@
           <h2>Personal Projects</h2>
           <div class="work__boxes">
 
+
+            <div class="work__box">
+              <div class="work__text">
+                  <h3>Behavior cloning for table-top manipulation</h3>
+                  <p>
+                      Used the Robomimic dataset, which contains information about robot states and actions to model the underlying action distribution. Trained an MLP model and an RNN model to predict robot actions in a supervised setting.
+                  </p>
+          
+                  <div class="work__links">
+                      <a href="https://drive.google.com/file/d/1h4Czstfwhd4F6yYqVaE0EMBnevjnNmCu/view?usp=sharing" target="_blank" class="link__text">
+                          View project report <span>&rarr;</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="work__image-box">
+                  <img src="./images/robomimic.gif" class="work__image" alt="Project 7" />
+              </div>
+          </div>
+         
+
+          <div class="work__box">
+            <div class="work__text">
+                <h3>Learning dynamics model and planning for robot manipulation</h3>
+                <p>
+                    Used the Pybullet environment to model a pusher on a table-top environment. The task is to make a Franka Emika Panda arm push a red disk into a designated green circle on the table. Trained an MLP model to predict the future position of the pusher given its current position and trajectory. Implemented random shooting algorithm to plan trajectories for the pusher.
+                </p>
+        
+                <div class="work__links">
+                    <a href=" https://drive.google.com/file/d/19MXcpfoisZnu_XKKSa0P4KVWeXhSrtXw/view?usp=sharing" target="_blank" class="link__text">
+                        View Project report <span>&rarr;</span>
+                    </a>
+                </div>
+            </div>
+            <div class="work__image-box">
+                <img src="./images/dynamics model.gif" class="work__image" alt="Project 7" />
+            </div>
+        </div>
+        
+
           <div class="work__box">
             <div class="work__text">
               <h3>Line Follower robot</h3>
@@ -265,7 +333,7 @@
             <div class="work__text">
               <h3>Sentiment Analysis</h3>
               <p>
-                The 2020 farmer protests of Haryana were analysed,by collecting tweets and analyzing their nature. NLP techniques like vectorization and various pre-processing techniques to label the tweets as positive,negative or neutral were implemented to get an overall idea of the temperament of the people. Results were depicted in the form of bar graphs and charts for visualization.
+                The 2020 farmer protests of Haryana, India were analysed,by collecting tweets and analyzing their nature. NLP techniques like vectorization and various pre-processing techniques to label the tweets as positive,negative or neutral were implemented to get an overall idea of the temperament of the people. Results were depicted in the form of bar graphs and charts for visualization.
 
 
               </p>
@@ -338,11 +406,11 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              I'm a first-year Master's student pursuing Robotics at Georgia Tech, expected to graduate in May 2025. I have a 4.0 GPA (as of Fall 2023). I graduated from the National Institute of Technology, Tiruchirappalli, with a Bachelor's degree in Mechanical Engineering and a minor in Computer Science (GPA: 8.93).
-              I have a keen interest in the areas of Robot Perception, Computer Vision and AI applications in robotics and am working on related research projects with faculty at Georgia Tech. 
+              I'm a second-year Master's student pursuing Robotics at Georgia Tech, expected to graduate in May 2025. I have a 4.0 GPA (as of Spring 2024). I graduated from the National Institute of Technology, Tiruchirappalli, with a Bachelor's degree in Mechanical Engineering and a minor in Computer Science (GPA: 8.93).
+              I have a keen interest in the areas of Robot Perception, Computer Vision, robot locomotion and AI applications in robotics and am working on related research projects with faculty at Georgia Tech. 
             </p>
             <!-- Provide a link to your resume -->
-            <a href="https://drive.google.com/file/d/1T-_sDTL5BEXlJBYjkpIjcaMCy1SbGLA5/view?usp=sharing" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1mEK5IRnhGIbJAQA2VeHlqNXcmX_qBsM0/view?usp=sharing" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
@@ -361,7 +429,7 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          I'm currently looking for internship roles in the robotics field during the Summer of 2024, based in USA. During my free time I play badminton and chess. I'm a huge fan of the Esports world and I follow it intently. Please feel free to drop me a message if my work resonates with you and if you have similar interests as me, and would like to discuss!
+          I'm currently looking for full-time roles in robot perception/locomotion, AI, ML fields starting Summer 2025, based in USA. During my free time I play badminton and chess. I'm a huge fan of the Esports world and I follow it intently. Please feel free to drop me a message if my work resonates with you and if you have similar interests as me, and would like to discuss!
         </p>
         <!-- Replace the email with yours -->
         <a href="mailto:abirath.raju@gmail.com" class="btn">abirath.raju@gmail.com</a>
@@ -397,10 +465,6 @@
         </li>
       </ul>
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2023 - Template designed & developed by Abirath.
-      </p>
       <!-- <div class="footer__github-buttons">
         <iframe
           src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
