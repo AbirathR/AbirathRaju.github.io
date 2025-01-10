@@ -80,11 +80,12 @@
             <div class="work__text">
                 <h3>Social navigation of Humanoid robot Digit (Perception and RL)</h3>
                 <p>
-                    I am a part of the Laboratory for Intelligent decisions and autonomous robots (LIDAR) research group at Georgia Tech, advised by Dr. Ye Zhao. As a part of my capstone project, I am working on developing a perception pipeline to perform 3D pose estimation of pedestrians in the scene and infer the emotion of the person from gait. This will be incorporated into the reward structure of a RL framework to obtain a policy that outputs socially acceptable robot actions in order to navigate through a crowded environment.
+                     As a part of my capstone project, I developed an end-to-end navigation pipeline that directly maps latent features to bipedal robot actions.
+                     I used collision regions, emotion-related discomfort zones, and human-human interactions to derive the latent features. I developed an actor-critic reinforcement learning framework to train with full-body bipedal robot dynamics, effectively mitigating model discrepancies introduced by reduced order models (ROMs).
                 </p>
             </div>
             <div class="work__image-box">
-              <img src="./images/framework.png" class="work__image" alt="Project 1" />
+              <img src="./images/RL_video.mp4" class="work__image" alt="Project 1" />
           </div>
         </div>
         
@@ -96,11 +97,11 @@
                   As a part of the LIDAR Lab, I worked on system integration of a humanoid robot (Digit). I worked to help Digit navigate through an environment with humans and avoid collisions. My work involved using the Vicon Mocap system to detect humans in the vicinity and using the Zonotope-based model-predictive controller to plan Digit's trajectory.
               </p>
               <p>
-                  Work submitted to T-ASE (IEEE Transactions in Automation Science and Engineering ). 
+                  Work published at T-ASE (IEEE Transactions in Automation Science and Engineering ). 
               </p>
       
               <div class="work__links">
-                  <a href="https://arxiv.org/abs/2406.17151" target="_blank" class="link__text">
+                  <a href="https://ieeexplore.ieee.org/document/10810741" target="_blank" class="link__text">
                       View Paper on arXiv <span>&rarr;</span>
                   </a>
                   <a href="https://szn-mpc.github.io/" target="_blank" class="link__text">
@@ -248,6 +249,48 @@
           <h2>Personal Projects</h2>
           <div class="work__boxes">
 
+            <div class="work__box">
+              <div class="work__text">
+                  <h3>Reformulating dice game Farkle as a RL problem</h3>
+                  <p>
+                    Built a single-agent Farkle environment integrated with Stable Baselines3, enabling accessible RL research.
+                    Added adjustable rewards, hyperparameters, and a rule-based heuristic for baseline comparisons.
+                    Tested A2C and PPO, showcasing challenges in stochastic and long-horizon settings.
+                  </p>
+          
+                  <div class="work__links">
+                      <a href="https://drive.google.com/file/d/1uWolKgWnm8NUfx7msNVT1KClBvGu23a-/view?usp=sharing" target="_blank" class="link__text">
+                          View project report <span>&rarr;</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="work__image-box">
+                  <img src="./images/PPO_rewards.png" class="work__image" alt="Project 9" />
+              </div>
+          </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                  <h3>User study on social navigation strategies for robots</h3>
+                  <p>
+                    Analyzed user preferences of robot trajectories for humans displaying four different emotions namely Happy, Angry, Neutral and Sad.
+                    Teleoperated Digit the humanoid robot and Unitree Go2 robot to follow paths with differing distances around the human displaying a particular emotion and recorded videos of the process. 
+                    Created a questionnaire and analyzed responses based on godspeed metrics about comfort, desired changes in the robot's path and overall preferences.
+                  </p>
+          
+                  <div class="work__links">
+                      <a href="https://drive.google.com/file/d/1XV6u6dwHFxf6lgNfOq-SnbhXJdGcimed/view?usp=sharing" target="_blank" class="link__text">
+                          View project report <span>&rarr;</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="work__image-box">
+                  <img src="./images/HRI.png" class="work__image" alt="Project 9" />
+              </div>
+          </div>
+
+
+          
 
             <div class="work__box">
               <div class="work__text">
@@ -412,7 +455,7 @@
               I have a keen interest in the areas of Robot Perception, Computer Vision, robot locomotion and AI applications in robotics and am working on related research projects with faculty at Georgia Tech. 
             </p>
             <!-- Provide a link to your resume -->
-            <a href="https://drive.google.com/file/d/1mEK5IRnhGIbJAQA2VeHlqNXcmX_qBsM0/view?usp=sharing" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1CFv64zeA2E9f34vEfovJOwFN2vk6gVax/view?usp=sharing" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
@@ -431,7 +474,7 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          I'm currently looking for full-time roles in robot perception/locomotion, AI, ML fields starting Summer 2025, based in USA. During my free time I play badminton and chess. I'm a huge fan of the Esports world and I follow it intently. Please feel free to drop me a message if my work resonates with you and if you have similar interests as me, and would like to discuss!
+          I'm currently looking for full-time roles in robot perception/locomotion, AI, ML fields starting May 2025, based in USA. During my free time I play badminton and chess. I'm a huge fan of the Esports world and I follow it intently. Please feel free to drop me a message if my work resonates with you and if you have similar interests as me, and would like to discuss!
         </p>
         <!-- Replace the email with yours -->
         <a href="mailto:abirath.raju@gmail.com" class="btn">abirath.raju@gmail.com</a>
